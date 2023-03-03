@@ -1,6 +1,6 @@
 greenery:
   outputs:
-    dbt_aun:
+    dbt_zkan:
       type: postgres
       threads: 1
       host: localhost
@@ -20,4 +20,4 @@ greenery:
       dbname: greenery
       schema: prod
 
-  target: dbt_aun
+  target: dbt_zkan
